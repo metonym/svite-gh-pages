@@ -1,6 +1,6 @@
 # svite-minimal
 
-> The [minimal Svite set-up](https://github.com/dominikg/svite/tree/master/examples/minimal) deployable to [GitHub pages](https://metonym.github.io/svite-minimal/).
+> [Minimal Svite set-up](https://github.com/dominikg/svite/tree/master/examples/minimal) made deployable to [GitHub pages](https://metonym.github.io/svite-minimal/).
 
 Customize the base directory and assets directory.
 
@@ -19,3 +19,8 @@ Customize the base directory and assets directory.
 First, build the app by running `yarn build`.
 
 Then, run `yarn deploy`.
+
+## Additional notes
+
+- Incorporates MDsveX
+- Replaces "process.env.VERSION" in script code with the `version` from `package.json` (useful for component libraries)

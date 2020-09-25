@@ -1,5 +1,5 @@
 <script>
-  const world = "world";
+  import Page from "./Page.svx";
 </script>
 
 <style>
@@ -8,5 +8,7 @@
   }
 </style>
 
-<h1>Hello {world}</h1>
-<p>Open App.svelte in your editor and change something to see HMR in action</p>
+<h1>svelte-minimal</h1>
+<p>The content below is written using MDsveX:</p>
+
+<Page />

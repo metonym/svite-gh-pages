@@ -1,0 +1,19 @@
+# Heading 1
+
+<script>
+  import Button from "./Button.svelte";
+
+  let count = 10;
+</script>
+
+```html
+<script>
+  import Button from "./Button.svelte";
+
+  let count = 10;
+</script>
+```
+
+## {count}
+
+<Button bind:count>Increment the count</Button>

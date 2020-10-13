@@ -22,5 +22,5 @@ Then, run `yarn deploy`.
 
 ## Additional notes
 
-- Incorporates MDsveX
-- Replaces "process.env.VERSION" in script code with the `version` from `package.json` (useful for component libraries)
+- Incorporates [MDsveX](https://github.com/pngwn/mdsvex)
+- Uses svelte preprocess API too replace "process.env.NAME" and "process.env.VERSION" with the `name` and `version` from `package.json`. This is useful for documenting component libraries.

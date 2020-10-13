@@ -1,10 +1,12 @@
-# svelte-minimal v{version}
+# {name} v{version}
 
 <script>
   import Button from "./Button.svelte";
 
-  let version = process.env.VERSION;
-  let count = 10;
+  const version = process.env.VERSION;
+  const name = process.env.NAME;
+
+  let count = 0;
 </script>
 
 <style>

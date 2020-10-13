@@ -1,10 +1,10 @@
-# svite-minimal
+# svite-gh-pages
 
-> [Minimal Svite set-up](https://github.com/dominikg/svite/tree/master/examples/minimal) made deployable to [GitHub pages](https://metonym.github.io/svite-minimal/).
+> [Minimal Svite set-up](https://github.com/dominikg/svite/tree/master/examples/minimal) made deployable to [GitHub pages](https://metonym.github.io/svite-gh-pages/).
 
 Customize the base directory and assets directory.
 
-- `base` should be either "" (relative path) or the public path of your GH repo (i.e. "/svite-minimal/")
+- `base` should be either "" (relative path) or the public path of your GH repo (i.e. "/svite-gh-pages/")
 - `assetsDir` should not begin with an underscore (GitHub pages [ignores folders beginning with "\_"](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/))
 
 ```diff

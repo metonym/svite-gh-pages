@@ -8,10 +8,9 @@ module.exports = {
     {
       script: ({ content }) => {
         return {
-          code: content.replace(
-            /process.env.VERSION/g,
-            JSON.stringify(pkg.version)
-          ),
+          code: content
+            .replace(/process.env.NAME/g, JSON.stringify(pkg.name))
+            .replace(/process.env.VERSION/g, JSON.stringify(pkg.version)),
         };
       },
     },

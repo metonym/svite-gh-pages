@@ -2437,30 +2437,25 @@ svelte-hmr@^0.10.1:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.10.3.tgz#6939a6ae483bb0180e0f3f120554d947e00d2223"
   integrity sha512-s90yAPnfGE6rTbq9Vvq73z1XqLJ2qGw0VjorpwKfDZRIsB0/Ozu+uF5cyC1fS3dCyQcS2sZDMt4zQ/qDjDwa/Q==
 
-svelte-hmr@^0.11.1:
-  version "0.11.1"
-  resolved "https://registry.npmjs.org/svelte-hmr/-/svelte-hmr-0.11.1.tgz#8789db456a068e49d7813bf8a59beed49971f7c6"
-  integrity sha512-ecW9G/Pp7+RXXFvoWcF1WQsdajgigtdFH6qe25kMggmidvqTrzThkfELfR8cgnWng6eNVV4Y70vvb4MI/3N7OQ==
-
-svelte-preprocess@4.3.2:
-  version "4.3.2"
-  resolved "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-4.3.2.tgz#a05a98e59c64044e835b1401346be41665f19971"
-  integrity sha512-CmIsCr62y34qGS10/SC1l1VkmX0kZR6wncbGgRJ1qJftLDMEaazC3bWqoqAlrqyQFvpO0+xb44GQm4RKi/9sLQ==
+svelte-preprocess@4.5.1:
+  version "4.5.1"
+  resolved "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-4.5.1.tgz#cfdb642b0305e09ff6090b99d6af30fbb29239e0"
+  integrity sha512-fZiLMg+mJzp5y4bsvBtl6wE1WCp+s5L87BoKMONGLXk8HSZD5HuRJzxhM0yhM9LHF0jP5kYG22P2Vc/vrv4I0A==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.29.0:
-  version "3.29.0"
-  resolved "https://registry.npmjs.org/svelte/-/svelte-3.29.0.tgz#80acac4254341ad8f3301e5ef03f4127ea967d96"
-  integrity sha512-f+A65eyOQ5ujETLy+igNXtlr6AEjAQLYd1yJE1VwNiXMQO5Z/Vmiy3rL+zblV/9jd7rtTTWqO1IcuXsP2Qv0OA==
+svelte@^3.29.7:
+  version "3.29.7"
+  resolved "https://registry.npmjs.org/svelte/-/svelte-3.29.7.tgz#e254eb2d0d609ce0fd60f052d444ac4a66d90f7d"
+  integrity sha512-rx0g311kBODvEWUU01DFBUl3MJuJven04bvTVFUG/w0On/wuj0PajQY/QlXcJndFxG+W1s8iXKaB418tdHWc3A==
 
-svite@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.npmjs.org/svite/-/svite-0.7.2.tgz#db593338021e2b8b537d56b03074e43ff2b55847"
-  integrity sha512-T8e0c6fSYuRJDoLl7uBlLV9DhiomyXypzDL5f5UieDUCPMiTlM2WtjeZCEX6FsQU8UpAFZVphDIzoFtXNJ5QvA==
+svite@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/svite/-/svite-0.8.0.tgz#bb19bdb30c263d132dd63eb288f778136d0e5833"
+  integrity sha512-1ppkYl0MpBnhLNkO0KTOD8alG7EaMcOP/k35gkM+gtQYQ3gpnINpfVogtt7+CaqQ3/Cvn66sNM6iLVk2qoY9zQ==
   dependencies:
     "@rollup/pluginutils" "^4.0.0"
     chalk "^4.1.0"
@@ -2473,7 +2468,7 @@ svite@^0.7.2:
     vite "1.0.0-rc.4"
   optionalDependencies:
     rollup-plugin-visualizer "^4.1.1"
-    svelte-preprocess "4.3.2"
+    svelte-preprocess "4.5.1"
 
 terser@^4.6.2:
   version "4.8.0"

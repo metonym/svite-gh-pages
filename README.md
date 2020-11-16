@@ -4,14 +4,23 @@
 
 Customize the base directory and assets directory.
 
-- `base` should be either "" (relative path) or the public path of your GH repo (i.e. "/svite-gh-pages/")
-- `assetsDir` should not begin with an underscore (GitHub pages [ignores folders beginning with "\_"](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/))
+- `base` should be either "" (relative path) or the public path of your repo (i.e. "/svite-gh-pages/")
+- `assetsDir` should not begin with an underscore (GitHub Pages [ignores folders beginning with "\_"](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/))
 
 ```diff
 "scripts": {
 -  "build": "svite build",
 +  "build": "svite build --base= --assetsDir=assets",
 }
+```
+
+## Quick start
+
+Use [degit](https://github.com/Rich-Harris/degit) to quickly scaffold a new project:
+
+```sh
+npx degit metonym/svite-gh-pages my-app
+cd my-app && yarn install
 ```
 
 ## Deploying to GitHub Pages
